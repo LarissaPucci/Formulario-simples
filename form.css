@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    background-color: #272727;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.form1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin-top: 10vh;
+    margin-bottom: 200px;
+    box-shadow: 5px 5px 50px #515151;
+    
+   
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
+}
+.form_header{
+    padding: 20px 0;
+}
+.title_form h1{
+    color: #b5b5b5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.input_all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.input_box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.input_box input {
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border: none;
+    
+}
+.input_box input:focus-visible{
+    outline: 1px solid #808080;
+}
+.input_box i{
+    position: absolute;
+    top: 42px;
+    left: 10px;
+    font-size: 20px;
+    color: #006494;
+}
+.input_box label{
+    color: #dcdcdc;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+.input_box input::placeholder{
+    color: #444444;
+}
+.finish{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+.finish button{
+    padding: 5px 8px;
+    background-color: #dcdcdc;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+}
+.finish button:hover{
+    background-color:#6eb47d ;
+    width: 70px;
+    transition: all 1s;
+}
+
+@media (max-width:600px){
+    .container{
+        width: 90%;
+        height: auto;
+    }
+    .form1{
+        width: 90%;
+        height: auto;
+    }
+    .input_box input{
+        width: 70vw;
+    }
+    
+}
