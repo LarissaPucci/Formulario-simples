@@ -1,2 +1,3 @@
-# formulario-simples
-Formulário simples em HTML e CSS
+# Formulario
+
+Um formulário simples, criado como projeto durante estudos de HTML e CSS.
